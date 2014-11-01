@@ -1,0 +1,20 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"CodeFormatter",
+		"DocBlockr",
+		"EasyDiff",
+		"Emmet",
+		"GitlabIntegrate",
+		"JSHint Gutter",
+		"Pylinter",
+		"Solarized Color Scheme",
+		"SublimeLinter-pylint",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"VCS Gutter",
+		"WordPress"
+	]
+}

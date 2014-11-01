@@ -1,0 +1,23 @@
+# Setup System
+    1. Copy Documents
+    2. Link dotfiles
+        $ for File in $( "gnupg" "ssh" "thunderbird" ); do ln -s ~/Documents/home/"${File}" ~/."${File}"; chmod 700 ~/."${File}" -R; done
+        $ 
+    3. Settings
+        Terminal: Unlimited Scroll, Color
+        System Settings
+            Preferences: Preferred Applications: Music, Video -> VLC
+            Hardware: Keyboard: Allow different layouts, New windows default layout
+    4. $ cd ~/.teo/init/ && ./setup.sh
+
+    Opțional:
+        Date & Time: "%A, %e %B, %H:%M:%S"
+        ~ Thunderbird
+                EDS Contact, Enigmail, FireTray, Lightning, Thunderbird Conversation, Add Romanian Dictionary
+                Preferences -> Advanced -> Config Editor: mail.db.idle_limit=3000000
+        ~ Sublime 3 Package Manager: https://sublime.wbond.net/installation
+        ~ Firefox (plus optirun - about:support)
+                General: Save files, Applications: ALL Always ask, Privacy: do not want to be tracked
+                Advanced: Data Choices: No to both, Network: No proxy, Update: no
+                Google as SE
+                Addons: LastPass, Clearly, Ghostery, HTTPS Everywhere, AdBlock Plus, TabMix Plus, HackBar, Link Gopher
