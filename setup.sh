@@ -26,3 +26,4 @@ sudo sed -ie "s/sudo\tALL=(ALL:ALL) ALL/sudo\tALL=(ALL:ALL) ALL\n${suser}/g" /et
 ./run/2-nvidia.sh	# nVidia
 ./run/3-tools.sh	# Tools
 ./run/4-user.sh		# User
+./run/5-fixes.sh 	# fixes
